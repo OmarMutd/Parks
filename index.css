@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+  .js-result-amt {
+  border:2px solid black; 
+  background:rgb(219, 230, 248);
+  }
+ 
+
+  .abr {
+    border:2px solid black; 
+  background:rgb(219, 230, 248);
+  }
+  .js-state-entered {
+    border:2px solid black; 
+  background:rgb(219, 230, 248);
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(13, 223, 13);
+    color: rgb(14, 13, 94);
+  }
+  
+  button, input[type="text"] {
+    padding: 3px;
+    display: flex;
+    float: center;
+    
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .error-message {
+      color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  h1 {
+    font-size: 36px;
+  }
+
+  .go {
+    padding: 6px 20px;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    font: bold 13px arial, helvetica, sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #555;
+      }
